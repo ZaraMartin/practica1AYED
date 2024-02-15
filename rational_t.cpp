@@ -171,6 +171,27 @@ rational_t::pow1()
   return result;
 }
 
+// modificación 2
+rational_t
+rational_t::substract2()
+{
+  rational_t sum;
+  sum.num_ = ((this->num_ * 1) - (this->den_ * 1));
+  sum.den_ = (this->den_ * 1);
+  return sum;
+}
+
+// modificacion 3
+
+// void
+// rational_t::substract3(const rational_t& r)
+// {
+//   rational_t sum;
+//   sum.num_ = ((r.get_num() * 1) - (r.get_den() * 1));
+//   sum.den_ = (r.get_den() * 1);
+// }
+
+
 
 // E/S
 void

@@ -62,5 +62,11 @@ int main()
   cout << "a / b: ";
   a.pow1().write();  
 
+  cout << "a - 1: ";
+  a.substract2().write();
+
+  // cout << "c - 1: ";
+  // substract3(c).write();
+
   return 0;
 }

@@ -73,8 +73,11 @@ public:
   rational_t multiply(const rational_t&);
   //  Es un método que hace la división entre dos racionales.
   rational_t divide(const rational_t&);
-
+  
+  // modificaciones
   rational_t pow1();
+  rational_t substract2();
+  // void substract3(const rational_t& r);
 
   // Método que escribe el valor del objeto, es un out put. Se usa con std::cout, 
   // std::ostream, etc.
